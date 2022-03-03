@@ -10,6 +10,7 @@ using DigitalATM.DB.Modelss.Deposits;
 using DigitalATM.DB.Modelss.AccountModel;
 using DigitalATM.DB.Modelss.ClientModel;
 using DigitalATM.DB.Modelss.CreditCardModel;
+using DigitalATM.DB.Modelss;
 
 namespace DigitalATM.DB.Interfaces
 {
@@ -22,6 +23,7 @@ namespace DigitalATM.DB.Interfaces
         IDepositRepository Deposits { get; }
         IWithDrawRepository WithDraw { get; }
         ISavingReposity Saving { get; }
+        IAdminRepository Admin { get; }
         int Complete();
 
     }

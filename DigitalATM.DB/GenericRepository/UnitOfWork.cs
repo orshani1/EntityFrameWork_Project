@@ -23,6 +23,7 @@ namespace DigitalATM.DB.GenericRepository
             Loans = new LoansRepository(_context);
             Saving = new SavingRepository(_context);
             WithDraw = new WithdrawRepository(_context);
+            Admin = new AdminRepository(_context);
         }
         public IClientRepository Clients { get; private set; }
         public IAccountRepository Accounts { get; private set; }
@@ -31,6 +32,10 @@ namespace DigitalATM.DB.GenericRepository
         public IDepositRepository Deposits { get; private set; }
         public IWithDrawRepository WithDraw { get; private set; }
         public ISavingReposity Saving { get; private set; }
+
+        public IAdminRepository Admin { get; private set; }
+
+
         public int Complete()
         {
            return _context.SaveChanges();

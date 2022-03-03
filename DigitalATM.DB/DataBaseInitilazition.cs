@@ -14,6 +14,7 @@ namespace DigitalATM.DB
         public static void InitDB()
         {
             DataBaseInitilazition init = new DataBaseInitilazition();
+
             init.CheckBank();
             init.CheckClient();
             init.CheckAccount();
@@ -78,8 +79,8 @@ namespace DigitalATM.DB
                 if (reader.GetValue(0) == null)
                 {
                     cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = "INSERT Clients(FirstName,LastName)" +
-                                   "VALUES('or', 'shani')";
+                    cmd.CommandText = "INSERT Clients(FirstName,LastName,Email,Adress,City,HomeNumber,PhoneNumber)" +
+                                   "VALUES('or', 'shani','admin','admin','admin',0,00000)";
 
                     cmd.Connection = con;
                     con.Open();
@@ -127,6 +128,8 @@ namespace DigitalATM.DB
             con.Dispose();
 
         }
+     
+       
 
     }
 }
