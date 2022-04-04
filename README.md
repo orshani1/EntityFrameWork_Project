@@ -26,7 +26,7 @@
 <br/>
 <br/>
 
-![alt text](https://github.com/orshani1/DigitalATM_EFProject/blob/master/%E2%80%8F%E2%80%8F%D7%9C%D7%9B%D7%99%D7%93%D7%94.PNG?raw=true)
+![alt text](https://github.com/orshani1/EntityFrameWork_Project/blob/Main/%E2%80%8F%E2%80%8F%D7%9C%D7%9B%D7%99%D7%93%D7%94.PNG?raw=true)
 
 <br/>
 <br/>
