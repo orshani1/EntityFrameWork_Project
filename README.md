@@ -52,7 +52,7 @@
 <br/>
 <br/>
 
-![alt text](https://github.com/orshani1/DigitalATM_EFProject/blob/master/workingwithcmd.PNG?raw=true)
+![alt text](https://github.com/orshani1/EntityFrameWork_Project/blob/Main/workingwithcmd.PNG?raw=true)
 
 
 <br/>
@@ -71,7 +71,7 @@
 <br/>
 <br/>
 
-![alt text](https://github.com/orshani1/DigitalATM_EFProject/blob/master/smtp.PNG?raw=true)
+![alt text](https://github.com/orshani1/EntityFrameWork_Project/blob/master/smtp.PNG?raw=true)
 
 <br/>
 <br/>
